@@ -1,6 +1,7 @@
-git clone https://github.com/udacity/CarND-LaneLines-P1.git
+"""
+!git clone https://github.com/udacity/CarND-LaneLines-P1.git
 %cd CarND-LaneLines-P1
-
+"""
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import numpy as np
