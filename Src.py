@@ -1,14 +1,12 @@
-"""
 !git clone https://github.com/udacity/CarND-LaneLines-P1.git
 %cd CarND-LaneLines-P1
-"""
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 import numpy as np
 import cv2 
 import math
 %matplotlib inline
-"""
+
 # Helper Functions
 
 def grayscale(img):
@@ -30,4 +28,4 @@ def region_of_interest(img, vertices):
   cv2.fillPoly(mask, [vertices], ignore_mask_color)
   masked_image = cv2.bitwise_and(img, mask)
   return masked_image
-  """
+
