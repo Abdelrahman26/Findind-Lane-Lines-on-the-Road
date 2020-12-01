@@ -65,7 +65,6 @@ verticies = np.array([ [140,h] , [450,320] , [510, 320] , [w - 100, h] ] , np.ui
 masked_img2= region_of_interest(img_edge2,verticies)
 # hough transform 
 lines2 = hough_lines(masked_img2, 1, np.pi/180, 10 , 1 ,50)
-#
-rst   = weighted_img(lines2, img2)
-
-
+rst    = weighted_img(lines2, img2)
+# testing in one image
+display(rst)
